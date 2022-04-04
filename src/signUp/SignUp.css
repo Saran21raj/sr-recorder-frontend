@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+.signUp-LoginLabel {
+    font-size: 20px;
+    color: #1C0A00;
+}
+.signUp-LabelLogin {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #1C0A00;
+    padding-left: 6px;
+}
+
+.signUp-InputField-Containers {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.signUp-InputField {
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    
+}
+
+.signUp-InputField-EditBox {
+    border-radius: 0.5rem;
+    border: 0.1rem solid #1C0A00;
+    padding-left: 10px;
+    height: 2rem;
+    width: 192px;
+}
+.signUp-InputField-EditBox:hover{
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+
+}
+.signUpSubmitButton {
+    height: 3rem;
+    width: 208px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    border: 2px solid #1C0A00;
+    border-radius: 0.5rem;
+    background: transparent;
+    color:#1C0A00;
+}
+
+.signUpSubmitButton:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+
+}
+.signUpErrors {
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0;
+    color: red;
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.signInEmail-Err {
+    color: red;
+    font-size: 1rem;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* p[disabled] {
+    pointer-events: none;
+    opacity: 0.7%;
+}
+
+div[disabled] {
+    pointer-events: none;
+    opacity: 0.7%;
+} */
+
+.validdetails {
+    font-size: 16px;
+    font-weight: 1000;
+    margin-top: 0px;
+    color: red;
+    font-family: 'Poppins',sans-serif;
+}
+
+.signupinner-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-buttonbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-loader {
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.signup-uploaded {
+    font-weight: bolder;
+    padding-left: 50px;
+    margin-top: 0.3rem;
+    color: green;
+    font-family: 'Poppins',sans-serif;
+}
+
+.dot-flashingsignup {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: .5s;
+}
+
+.dot-flashingsignup::before,
+.dot-flashingsignup::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.dot-flashingsignup::before {
+    left: -2rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 0s;
+}
+
+.dot-flashingsignup::after {
+    left: 2rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes dotFlashingsignup {
+    0% {
+        background-color: #9880ff;
+    }
+    50%,
+    100% {
+        background-color: #ebe6ff;
+    }
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media(max-width:700px){
+    .div1{
+        display: flex;
+        flex-direction: column;
+    }
+    .signUp-InputField {
+        display: flex;
+        flex-direction: column;
+        height: 60px;       
+    }
+    .signUp-LoginLabel {
+        font-size: 15px;
+    }
+    .signUp-LabelLogin {
+        font-size: 13px;
+    }
+    .signUpErrors {
+        font-size: 10px;
+    }
+    .signup-buttonbox {
+        margin-top: 20px;
+    }
+    .validdetails {
+        font-size: 14px;
+    }
+    .signUpSubmitButton {
+        font-size: 18px;
+        height: 2.5rem;
+        width: 150px;
+    }
+    .signup-loader {
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+    }
+    .signup-uploaded {
+        font-size: 11px;
+        font-weight: bolder;
+        padding-left: 50px;
+        margin-top: 0.3rem;
+        color: green;
+        font-family: 'Poppins',sans-serif;
+    }
+    
+    .dot-flashingsignup {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #9880ff;
+        color: #9880ff;
+        animation: dotFlashing 1s infinite linear alternate;
+        animation-delay: .5s;
+    }
+    
+    .dot-flashingsignup::before,
+    .dot-flashingsignup::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 0;
+    }
+    
+    .dot-flashingsignup::before {
+        left: -1rem;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #9880ff;
+        color: #9880ff;
+        animation: dotFlashing 1s infinite alternate;
+        animation-delay: 0s;
+    }
+    
+    .dot-flashingsignup::after {
+        left: 1rem;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #9880ff;
+        color: #9880ff;
+        animation: dotFlashing 1s infinite alternate;
+        animation-delay: 1s;
+    }
+    
+    @keyframes dotFlashingsignup {
+        0% {
+            background-color: #9880ff;
+        }
+        50%,
+        100% {
+            background-color: #ebe6ff;
+        }
+    }
+    
+}
+
+@media(max-width:320px){
+    .signUp-LoginLabel {
+        font-size: 12px;
+    }
+    .signUp-LabelLogin {
+        font-size: 11px;
+    }
+    .signUpErrors {
+        font-size: 10px;
+    }
+    .signup-buttonbox {
+        margin-top: 25px;
+    }
+    .validdetails {
+        font-size: 12px;
+    }
+    .signUpSubmitButton {
+        font-size: 18px;
+        height: 2.5rem;
+        width: 120px;
+    }
+    .signup-loader {
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+    }
+    
+    .dot-flashingsignup {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #9880ff;
+        color: #9880ff;
+        animation: dotFlashing 1s infinite linear alternate;
+        animation-delay: .5s;
+    }
+    
+    .dot-flashingsignup::before,
+    .dot-flashingsignup::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 0;
+    }
+    
+    .dot-flashingsignup::before {
+        left: -1rem;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #9880ff;
+        color: #9880ff;
+        animation: dotFlashing 1s infinite alternate;
+        animation-delay: 0s;
+    }
+    
+    .dot-flashingsignup::after {
+        left: 1rem;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: #9880ff;
+        color: #9880ff;
+        animation: dotFlashing 1s infinite alternate;
+        animation-delay: 1s;
+    }
+    
+    @keyframes dotFlashingsignup {
+        0% {
+            background-color: #9880ff;
+        }
+        50%,
+        100% {
+            background-color: #ebe6ff;
+        }
+    }
+    .signup-uploaded {
+        font-size: 10px;
+        font-weight: bolder;
+        padding-left: 50px;
+        margin-top: 0.3rem;
+        color: green;
+        font-family: 'Poppins',sans-serif;
+    }
+}

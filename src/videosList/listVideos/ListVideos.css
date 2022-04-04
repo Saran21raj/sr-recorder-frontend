@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.list {
+    height: 4rem;
+    width: 40rem;
+    border-radius: 0.5rem;
+    border: 0.15rem solid black;
+    background-color: white;
+    align-content: center;
+    position: relative;
+    top: 1.5rem;
+    left: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+.list:hover{
+    cursor: pointer;
+}
+
+.listViewContainer {
+    height: 7rem;
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 0.15rem solid black;
+    background-color: white;
+    gap: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 1rem;
+}
+
+.deleteButton {
+    height: 4rem;
+    width: 10rem;
+    position: relative;
+    top: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 0.15rem solid black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+.deleteButton:hover{
+    cursor: pointer;
+}
+
+p[disabled] {
+    pointer-events: none;
+    opacity: 0.7%;
+}
+
+.deleted {
+    color: red;
+    padding-top: 30px;
+}
+
+@media(max-width:2560px) {
+    .listViewContainer {
+        height: 128px;
+        width: 1120px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        border: 0.15rem solid black;
+        background-color: white;
+        gap: 2rem;
+        border-radius: 0.5rem;
+        position: relative;
+        left: 1rem;
+    }
+    .list {
+        height: 80px;
+        width: 800px;
+        border-radius: 0.5rem;
+        border: 0.15rem solid black;
+        background-color: white;
+        align-content: center;
+        position: relative;
+        top: 1.5rem;
+        left: 1rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .deleteButton {
+        height: 80px;
+        width: 160px;
+        position: relative;
+        top: 1.5rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        border: 0.15rem solid black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media(max-width:1200px) {
+    .listViewContainer {
+        height: 128px;
+        width: 750px;
+    }
+    .list {
+        height: 80px;
+        width: 400px;
+        border-radius: 0.5rem;
+        border: 0.15rem solid black;
+        background-color: white;
+        align-content: center;
+        position: relative;
+        top: 1.5rem;
+        left: 1rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .deleteButton {
+        height: 80px;
+        width: 150px;
+        position: relative;
+        top: 1.5rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        border: 0.15rem solid black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media(max-width:800px) {
+    .listViewContainer {
+        height: 128px;
+        width: 600px;
+    }
+    .list {
+        height: 80px;
+        width: 400px;
+        border-radius: 0.5rem;
+        border: 0.15rem solid black;
+        background-color: white;
+        align-content: center;
+        position: relative;
+        top: 1.5rem;
+        left: 1rem;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+    .deleteButton {
+        height: 80px;
+        width: 150px;
+        position: relative;
+        top: 1.5rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        border: 0.15rem solid black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }   
+}
+
+@media(max-width:799px) {
+    .listViewContainer {
+        height: 200px;
+        width: 300px;
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+
+    }
+    .list {
+        height: 60px;
+        width: 200px;
+        font-size: 16px;
+    }
+    .deleteButton {
+        height: 60px;
+        width: 200px;
+        font-size: 16px;
+        position: relative;
+        left: 15px;
+    }   
+    .deleted{
+        padding-top: 10px;
+    }
+}

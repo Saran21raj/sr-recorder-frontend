@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.signInHeader {
+    height: 7rem;
+    background-color: #B8FFF9;
+    display: flex;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+.signInDiv-icon {
+    height: 4rem;
+    width: 6rem;
+    position: relative;
+    background-color: transparent;
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.signInIcon {
+    height: 5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    border: 0.2rem solid black;
+    text-align: center;
+}
+
+.signInName {
+    position: relative;
+    height: 5rem;
+    background-color: transparent;
+    top: 0.5rem;
+    left: 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.signInOptions {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+    gap: 1rem;
+}
+
+.signInListVideosButton {
+    width: 11rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.signInListVideosButton:hover{
+    cursor: pointer;
+}
+
+.signInOptionsButton {
+    width: 8rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.signInOptionsButton:hover{
+    cursor: pointer;
+}
+
+@media(max-width:2560px){
+    .signInOptions {
+        display: flex;
+        position: absolute;
+        right: 32px;
+        top: 1.5rem;
+        gap: 1rem;
+    }
+}
+
+@media(max-width:900px){
+    .signInIcon {
+        height: 80px;
+        width: 80px;
+        font-size: 32px;
+    }
+    .signInName {
+        font-size: 15px;
+    }
+    .signInOptionsButton {
+        width: 6rem;
+        height: 4rem;
+        font-size: 20px;
+    }
+    .signInListVideosButton {
+        width: 110px;
+        height: 4rem;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    .signInHeader{
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+    }
+    .signInIcon {
+        position: absolute;
+        left: 300px;
+        top: 30px;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+    }
+    .signInName {
+        position: absolute;
+        top: 80px;
+        font-size: 15px;
+    }
+    .signInOptions{
+        position: absolute;
+        top:170px;
+        left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .signInOptionsButton {
+        width: 100px;
+        height: 55px;
+        font-size: 15px;
+    }
+    .signInListVideosButton {
+        width: 100px;
+        height: 55px;
+        font-size: 18px;
+    }
+}
+@media(max-width:650px){
+    .signInIcon {
+        position: absolute;
+        left: 250px;
+        top: 30px;
+        height: 60px;
+        width: 60px;
+    }
+}
+@media(max-width:600px){
+    .signInIcon {
+        position: absolute;
+        left: 230px;
+        top: 30px;
+        height: 60px;
+        width: 60px;
+    }
+}
+@media(max-width:550px){
+    .signInIcon {
+        position: absolute;
+        left: 200px;
+        top: 30px;
+        height: 60px;
+        width: 60px;
+    }
+}
+@media(max-width: 500px){
+    .signInIcon {
+        position: absolute;
+        left: 180px;
+        top: 30px;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+    }
+}
+@media(max-width: 450px){
+    .signInIcon {
+        position: absolute;
+        left: 150px;
+        top: 30px;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+    }
+}
+@media(max-width: 376px){
+    .signInHeader{
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+    }
+    .signInIcon {
+        position: absolute;
+        left: 130px;
+        top: 30px;
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+    }
+    .signInName {
+        position: absolute;
+        top: 80px;
+        font-size: 15px;
+    }
+    .signInOptions{
+        position: absolute;
+        top:180px;
+        left: 10px;
+
+        display: flex;
+        flex-direction: row;
+    }
+    .signInOptionsButton {
+        width: 80px;
+        height: 48px;
+        font-size: 15px;
+    }
+    .signInListVideosButton {
+        width: 100px;
+        height: 48px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 350px){
+    .signInHeader{
+        height: 240px;
+        display: flex;
+        flex-direction: row;
+    }
+    .signInIcon {
+        position: absolute;
+        left: 130px;
+        top: 30px;
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+    }
+    .signInName {
+        position: absolute;
+        top: 80px;
+        font-size: 15px;
+    }
+    .signInOptions{
+        position: absolute;
+        top:180px;
+        left: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .signInOptionsButton {
+        width: 80px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .signInListVideosButton {
+        width: 80px;
+        height: 48px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:330px){
+    .signInIcon {
+        position: absolute;
+        left: 100px;
+        top: 30px;
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+    }
+}

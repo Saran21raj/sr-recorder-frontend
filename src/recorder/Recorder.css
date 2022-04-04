@@ -1,0 +1,1060 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+.videoPlayer-div {
+    position: absolute;
+    top: 12rem;
+    left: 1rem;
+}
+
+.videoPlayer {
+    position: relative;
+    width: 48rem;
+    height: 27rem;
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+
+.recorder-Start-Button {
+    height: 3rem;
+    width: 15rem;
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    border: 0.15rem solid black;
+    border-radius: 0.5rem;
+    background-color: #EFFFFD;
+}
+
+.recorder-Start-Button:hover {
+    cursor: pointer;
+}
+
+.recorder-Stop-Button {
+    height: 3rem;
+    width: 15rem;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    border: 0.15rem solid black;
+    border-radius: 0.5rem;
+    background-color: #EFFFFD;
+}
+
+.recorder-Stop-Button:hover {
+    cursor: pointer;
+}
+
+.recorder-Download-Hint1 {
+    position: absolute;
+    top: 10rem;
+    left: 51rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.recorder-EditText {
+    height: 2.8rem;
+    width: 19rem;
+    position: absolute;
+    left: 51rem;
+    top: 18rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    border: 0.15rem solid black;
+    border-radius: 0.5rem;
+}
+
+.recorder-Submit-Button {
+    height: 3rem;
+    width: 13rem;
+    position: absolute;
+    left: 51rem;
+    top: 23rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    border: 0.15rem solid black;
+    border-radius: 0.5rem;
+    background-color: #EFFFFD;
+}
+
+.recorder-Submit-Button:hover {
+    cursor: pointer;
+}
+
+.recorder-Download-Button {
+    height: 3rem;
+    width: 13rem;
+    position: absolute;
+    left: 51rem;
+    top: 28rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    border: 0.15rem solid black;
+    border-radius: 0.5rem;
+    background-color: #EFFFFD;
+}
+
+.recorder-Download-Button:hover {
+    cursor: pointer;
+}
+
+.recorder-Upload-Button {
+    height: 3rem;
+    width: 13rem;
+    position: absolute;
+    left: 51rem;
+    top: 33rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    border: 0.15rem solid black;
+    border-radius: 0.5rem;
+    background-color: #EFFFFD;
+}
+
+.recorder-Upload-Button:hover {
+    cursor: pointer;
+}
+
+.submit-span {
+    position: absolute;
+    right: 27rem;
+    top: 23rem;
+    color: green;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.upload-span {
+    position: absolute;
+    top: 33rem;
+    right: 27rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+div[disabled] {
+    pointer-events: none;
+    opacity: 0.7%;
+}
+
+.recorder-loader {
+    position: absolute;
+    right: 27rem;
+    bottom: 9.5rem;
+}
+
+.uploaded-label {
+    color: green;
+}
+
+
+@media(min-width: 2560px){
+    .videoPlayer-div {
+        position: absolute;
+        top: 224px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 1200px;
+        height: 700px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    .recorder-Start-Button {
+        height: 70px;
+        width: 400px;
+        position: relative;
+        left: 16px;
+        top: 16px;
+        font-size: 28px;
+    }
+    .recorder-Stop-Button {
+        height: 70px;
+        width: 400px;
+        position: relative;
+        left: 32px;
+        top: 16px;
+        font-size: 28px;
+    }
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 192px;
+        left: 1300px;
+        font-size: 32px;
+    }
+    
+    .recorder-EditText {
+        height: 55px;
+        width: 400px;
+        position: absolute;
+        left: 1300px;
+        top: 300px;
+        font-size: 32px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 1300px;
+        top: 385px;
+        font-size: 28px;
+    }
+    .recorder-Download-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 1300px;
+        top: 480px;
+        font-size: 28px;
+    }
+    
+    
+    .recorder-Upload-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 1300px;
+        top: 575px;
+        font-size: 28px;
+    }
+    
+    
+    .submit-span {
+        position: absolute;
+        left:1700px;
+        top: 360px;
+        font-size: 32px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:1700px;
+        top: 550px;
+        font-size: 32px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:1700px;
+        top: 600px;
+    }
+}
+
+
+@media(max-width: 2559px) {
+    .videoPlayer-div {
+        position: absolute;
+        top: 224px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 1200px;
+        height: 700px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    .recorder-Start-Button {
+        height: 70px;
+        width: 400px;
+        position: relative;
+        left: 16px;
+        top: 16px;
+        font-size: 28px;
+    }
+    .recorder-Stop-Button {
+        height: 70px;
+        width: 400px;
+        position: relative;
+        left: 32px;
+        top: 16px;
+        font-size: 28px;
+    }
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 192px;
+        left: 1300px;
+        font-size: 32px;
+    }
+    .recorder-EditText {
+        height: 55px;
+        width: 400px;
+        position: absolute;
+        left: 1300px;
+        top: 350px;
+        font-size: 32px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 1300px;
+        top: 435px;
+        font-size: 28px;
+    }
+    .recorder-Download-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 1300px;
+        top: 530px;
+        font-size: 28px;
+    }
+    
+    .recorder-Upload-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 1300px;
+        top: 625px;
+        font-size: 28px;
+    }
+    
+    
+    .submit-span {
+        position: absolute;
+        left:1700px;
+        top: 410px;
+        font-size: 32px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:1700px;
+        top: 600px;
+        font-size: 32px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:1700px;
+        top: 650px;
+    }
+}
+@media(max-width: 1900px) {
+    .videoPlayer-div {
+        position: absolute;
+        top: 224px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 850px;
+        height: 450px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    .recorder-Start-Button {
+        height: 70px;
+        width: 400px;
+        position: relative;
+        left: 16px;
+        top: 16px;
+        font-size: 28px;
+    }
+    .recorder-Stop-Button {
+        height: 70px;
+        width: 400px;
+        position: relative;
+        left: 32px;
+        top: 16px;
+        font-size: 28px;
+    }
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 192px;
+        left: 950px;
+        font-size: 28px;
+    }
+    .recorder-EditText {
+        height: 55px;
+        width: 400px;
+        position: absolute;
+        left: 950px;
+        top: 350px;
+        font-size: 32px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 950px;
+        top: 435px;
+        font-size: 28px;
+    }
+    .recorder-Download-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 950px;
+        top: 530px;
+        font-size: 28px;
+    }
+    
+    
+    .recorder-Upload-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 950px;
+        top: 625px;
+        font-size: 28px;
+    }
+    
+    
+    .submit-span {
+        position: absolute;
+        left:1300px;
+        top: 410px;
+        font-size: 28px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:1300px;
+        top: 600px;
+        font-size: 28px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:1350px;
+        top: 650px;
+    }
+    
+}
+@media(max-width: 1440px) {
+    .videoPlayer-div {
+        position: absolute;
+        top: 200px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 700px;
+        height: 400px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    .recorder-Start-Button {
+        height: 50px;
+        width: 350px;
+        position: relative;
+        left: 16px;
+        top: 16px;
+        font-size: 22px;
+    }
+    .recorder-Stop-Button {
+        height: 50px;
+        width: 340px;
+        position: relative;
+        left: 32px;
+        top: 16px;
+        font-size: 22px;
+    }
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 175px;
+        left: 750px;
+        font-size: 22px;
+    }
+    .recorder-EditText {
+        height: 40px;
+        width: 250px;
+        position: absolute;
+        left: 750px;
+        top: 280px;
+        font-size: 22px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        left: 750px;
+        top: 350px;
+        font-size: 22px;
+    }
+    .submit-span {
+        position: absolute;
+        left:990px;
+        top: 330px;
+        font-size: 22px;
+    }
+    .recorder-Download-Button {
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        left: 750px;
+        top: 430px;
+        font-size: 22px;
+    }
+    
+    .recorder-Upload-Button {
+        height: 50px;
+        width: 200px;
+        position: absolute;
+        left: 750px;
+        top: 500px;
+        font-size: 22px;
+    }
+    .upload-span {
+        position: absolute;
+        left:1000px;
+        top: 480px;
+        font-size: 22px;
+    }
+    .recorder-loader {
+        position: absolute;
+        left:1000px;
+        top: 520px;
+    }
+    
+}
+@media(max-width: 1200px) {
+    .videoPlayer-div {
+        position: absolute;
+        top: 130px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 500px;
+        height: 300px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    .recorder-Start-Button {
+        height: 70px;
+        width: 300px;
+        position: relative;
+        left: 650px;
+        top: 80px;
+        font-size: 28px;
+    }
+    .recorder-Stop-Button {
+        height: 70px;
+        width: 300px;
+        position: relative;
+        left: 350px;
+        top: 180px;
+        font-size: 28px;
+    }
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 500px;
+        left: 50px;
+        font-size: 24px;
+    }
+    .recorder-EditText {
+        height: 55px;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 580px;
+        font-size: 32px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 665px;
+        font-size: 28px;
+    }
+    .recorder-Download-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 760px;
+        font-size: 28px;
+    }
+    
+    .recorder-Upload-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 855px;
+        font-size: 28px;
+    }
+    
+    .submit-span {
+        position: absolute;
+        left:400px;
+        top: 650px;
+        font-size: 28px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:400px;
+        top: 835px;
+        font-size: 28px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:400px;
+        top: 880px;
+    }
+    
+}
+
+@media(max-width: 960px) {
+    .recorder-Start-Button {
+        height: 60px;
+        width: 200px;
+        position: relative;
+        left: 550px;
+        top: 60px;
+        font-size: 20px;
+    }
+    .recorder-Stop-Button {
+        height: 60px;
+        width: 200px;
+        position: relative;
+        left: 350px;
+        top: 180px;
+        font-size: 20px;
+    }
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 500px;
+        left: 50px;
+        font-size: 24px;
+    }
+    .recorder-EditText {
+        height: 55px;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 580px;
+        font-size: 32px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 665px;
+        font-size: 28px;
+    }
+    .recorder-Download-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 760px;
+        font-size: 28px;
+    }
+    
+    .recorder-Upload-Button {
+        height: 65px;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 855px;
+        font-size: 28px;
+    }
+    
+    .submit-span {
+        position: absolute;
+        left:400px;
+        top: 650px;
+        font-size: 28px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:400px;
+        top: 835px;
+        font-size: 28px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:400px;
+        top: 880px;
+    }
+    
+}
+
+@media(max-width: 700px) {
+    .recorder-Start-Button {
+        height: 50px;
+        width: 250px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+        font-size: 15px;
+    }
+    .recorder-Stop-Button {
+        height: 50px;
+        width: 250px;
+        position: relative;
+        left: 20px;
+        top: 15px;
+        font-size: 15px;
+    }
+    .videoPlayer-div {
+        position: absolute;
+        top: 330px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 500px;
+        height: 300px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 650px;
+        left: 20px;
+        font-size: 18px;
+    }
+    .recorder-EditText {
+        height: 35px;
+        width: 200px;
+        position: absolute;
+        left: 20px;
+        top: 730px;
+        font-size: 25px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 795px;
+        font-size: 20px;
+    }
+    .recorder-Download-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 850px;
+        font-size: 20px;
+    }
+    
+    .recorder-Upload-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 910px;
+        font-size: 20px;
+    }
+    
+    .submit-span {
+        position: absolute;
+        left:180px;
+        top: 780px;
+        font-size: 18px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:200px;
+        top: 900px;
+        font-size: 20px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:230px;
+        top: 920px;
+    }
+}
+
+@media(max-width: 500px) {
+    .recorder-Start-Button {
+        height: 50px;
+        width: 150px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+        font-size: 15px;
+    }
+    .recorder-Stop-Button {
+        height: 50px;
+        width: 150px;
+        position: relative;
+        left: 20px;
+        top: 15px;
+        font-size: 15px;
+    }
+    .videoPlayer-div {
+        position: absolute;
+        top: 330px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 360px;
+        height: 250px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 580px;
+        left: 20px;
+        font-size: 16px;
+    }
+    .recorder-EditText {
+        height: 35px;
+        width: 200px;
+        position: absolute;
+        left: 20px;
+        top: 670px;
+        font-size: 25px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 725px;
+        font-size: 20px;
+    }
+    .recorder-Download-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 780px;
+        font-size: 20px;
+    }
+    
+    .recorder-Upload-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 840px;
+        font-size: 20px;
+    }
+    
+    .submit-span {
+        position: absolute;
+        left:180px;
+        top: 710px;
+        font-size: 18px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:200px;
+        top: 830px;
+        font-size: 20px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:230px;
+        top: 850px;
+    }
+}
+
+@media(max-width: 376px) {
+    .recorder-Start-Button {
+        height: 50px;
+        width: 140px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+        font-size: 15px;
+    }
+    .recorder-Stop-Button {
+        height: 50px;
+        width: 140px;
+        position: relative;
+        left: 20px;
+        top: 15px;
+        font-size: 15px;
+    }
+    .videoPlayer-div {
+        position: absolute;
+        top: 330px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 330px;
+        height: 200px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 550px;
+        left: 20px;
+        font-size: 18px;
+    }
+    .recorder-EditText {
+        height: 35px;
+        width: 200px;
+        position: absolute;
+        left: 20px;
+        top: 630px;
+        font-size: 25px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 695px;
+        font-size: 20px;
+    }
+    .recorder-Download-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 750px;
+        font-size: 20px;
+    }
+    
+    .recorder-Upload-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 810px;
+        font-size: 20px;
+    }
+    
+    .submit-span {
+        position: absolute;
+        left:180px;
+        top: 680px;
+        font-size: 18px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:40px;
+        top: 835px;
+        font-size: 20px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:230px;
+        top: 820px;
+    }
+}
+@media(max-width: 350px) {
+    .recorder-Start-Button {
+        height: 50px;
+        width: 140px;
+        position: relative;
+        left: 10px;
+        top: 15px;
+        font-size: 15px;
+    }
+    .recorder-Stop-Button {
+        height: 50px;
+        width: 140px;
+        position: relative;
+        left: 20px;
+        top: 15px;
+        font-size: 15px;
+    }
+    .videoPlayer-div {
+        position: absolute;
+        top: 330px;
+        left: 16px;
+    }
+    .videoPlayer {
+        position: relative;
+        width: 290px;
+        height: 200px;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+    
+    .recorder-Download-Hint1 {
+        position: absolute;
+        top: 550px;
+        left: 20px;
+        font-size: 18px;
+    }
+    .recorder-EditText {
+        height: 35px;
+        width: 200px;
+        position: absolute;
+        left: 20px;
+        top: 630px;
+        font-size: 25px;
+    }
+    
+    .recorder-Submit-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 695px;
+        font-size: 20px;
+    }
+    .recorder-Download-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 750px;
+        font-size: 20px;
+    }
+    
+    .recorder-Upload-Button {
+        height: 40px;
+        width: 150px;
+        position: absolute;
+        left: 20px;
+        top: 810px;
+        font-size: 20px;
+    }
+    
+    .submit-span {
+        position: absolute;
+        left:180px;
+        top: 680px;
+        font-size: 18px;
+    }
+    
+    .upload-span {
+        position: absolute;
+        left:40px;
+        top: 835px;
+        font-size: 20px;
+    }
+    
+    .recorder-loader {
+        position: absolute;
+        left:230px;
+        top: 820px;
+    }
+}
